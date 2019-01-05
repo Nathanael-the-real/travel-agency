@@ -10,7 +10,10 @@ gulp.task('html', function () {
 });
 
 gulp.task('styles', function () {
-  console.log("Image the people here loves sass.");
+  return gulp.src('./app/assets/styles/style.css')
+    .pipe(gulp.dest('.'))
+    .pipe(gulp.dest('./app/temp/styles'));
+
 });
 
 gulp.task('watch', function () {
