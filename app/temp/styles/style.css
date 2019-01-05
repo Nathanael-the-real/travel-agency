@@ -1,3 +1,16 @@
-body {
-  padding: 2.8rem;
+:root {
+  --mainBlue: #2f5572;
 }
+
+body {
+  color: #2fee57;
+  padding: 2.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box a {
+    display: block;
+    padding: 10px;
+  }

@@ -1,3 +1,18 @@
+:root {
+  --mainBlue: #2f5572;
+}
+
+$blue: #2fee57;
+
 body {
+  color: $blue;
   padding: 2.8rem;
+  display: flex;
+}
+
+.box {
+  a {
+    display: block;
+    padding: 10px;
+  }
 }
