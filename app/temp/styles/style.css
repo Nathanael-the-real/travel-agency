@@ -775,18 +775,43 @@ a {
 
 .feature-item {
   position: relative;
-  padding-left: 94px;
+
   padding: 2.5rem;
 }
 
+@media screen and (min-width: 530px) {
+
+.feature-item {
+    padding-left: 94px
+}
+  }
+
 .feature-item__icon {
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+@media screen and (min-width: 530px) {
+
+.feature-item__icon {
+      position: absolute;
+      left: 0
+  }
   }
 
 .feature-item __title {
-    font-size: 1.875rem;
+    font-size: 1.6rem;
     font-weight: 300;
+    margin-top: 0.7em;
     margin-bottom: 0.8rem;
+    text-align: center;
+  }
+
+@media screen and (min-width: 530px) {
+
+.feature-item __title {
+      text-align-last: left;
+      margin: 1em;
+      font-size: 1.875rem
+  }
   }
